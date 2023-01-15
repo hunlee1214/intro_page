@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+
+}
+
+header, footer{
+    background-color: #FFFBE9;
+}
+
+
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #CCD6A6;
+}
+
+#profile {
+    background-color: #D7E9B9;
+    padding: 50px 0px 50px 0px;
+
+}
+
+#profilepic {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+#like {
+    width: 50px;
+}
+
+#name {
+    color: #FFFBE9;
+    float: center;
+    text-align: center;
+}
+
+.cv {
+    background-color: #FFFBAC;
+    padding: 50px 0px 60px 0px;
+}
+.cv h1{
+    padding: 20px 0px 20px 0px;
+}
+.cv a{
+    padding: 20px 0px 20px 0px;
+}
+
+.cv2{
+    background-color: #FFD495;
+    padding: 50px 0px 50px 0px;
+}
+
+.cv3{
+    background-color: #FFAB78;
+    padding: 50px 0px 50px 0px;
+}
+
+.cv3 h1{
+    padding-bottom: 20px;
+}
+
+#loading {
+    width: 150px;
+    padding: 20px 0 20px 0;
+}
+
+.fr3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0 0 0;
+}
+
+.meme{
+    border-radius:5%;
+    background-color: #ffeacc;
+    margin: 0 10px 0 10px;
+    padding: 20px 0 20px 0;
+}
+
+.meme:hover{
+    background-color: #FFAB78; 
+}
+
+h3{
+    font-size: 30px;
+    padding: 0 0 20px 0;
+}
+
+h4{
+    font-weight: 100;
+    padding: 0 5px 5px 5px;
+}
+
+
+.btn-moveTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius:100%;
+    cursor: pointer;
+    font-size: 15pt;
+    color: green;
+    background-color: #D7E9B9;
+}
+
+footer{
+    padding: 30px;
+    font-size: 7pt;
+    font-weight: 50;
+    color: rgb(174, 174, 169);
+}
